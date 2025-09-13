@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HTML Head -->
+    <meta charset="UTF-8" />
+    <!-- HTML Charset -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsive -->
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- HTML Favicon -->
+    <link rel="stylesheet" href="p.css" />
+    <!-- HTML CSS -->
+  </head>
+  <body>
+    <!-- Headings & Paragraphs -->
+    <header>
+      <h1 id="top">Welcome to My Portfolio</h1>
+      <p>
+        Hello, my name is <span class="highlight">[Your Name]</span>. I am
+        learning HTML!
+      </p>
+    </header>
+
+    <!-- Quotations -->
+    <blockquote>
+      “The best way to predict the future is to create it.”
+    </blockquote>
+
+    <!-- Links -->
+    <nav>
+      <a href="#about">About</a> | <a href="#skills">Skills</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Images -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="My Photo" width="200" />
+      <p>I love web development and design.</p>
+    </section>
+
+    <!-- Tables -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <table border="1">
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Beginner</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Lists -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Portfolio Website</li>
+        <li>Blog</li>
+        <li>Landing Page</li>
+      </ul>
+      <ol>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JavaScript</li>
+      </ol>
+    </section>
+
+    <!-- Iframe -->
+    <section>
+      <h2>My Location</h2>
+      <iframe
+        src="https://www.google.com/maps"
+        width="300"
+        height="200"
+      ></iframe>
+    </section>
+
+    <!-- Computer Code -->
+    <section>
+      <h2>Code Example</h2>
+      <pre><code>
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+    </code></pre>
+      <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>
+    </section>
+
+    <!-- Entities, Symbols, Emojis -->
+    <footer>
+      <p>&copy; 2025 My Portfolio &rarr; Made with ❤️ and 😃</p>
+    </footer>
+
+    <!-- Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="submit.php" method="post">
+        <!-- Input Types -->
+        <label>Name:</label>
+        <input type="text" name="name" required /><br /><br />
+
+        <label>Email:</label>
+        <input type="email" name="email" required /><br /><br />
+
+        <label>Password:</label>
+        <input type="password" name="password" /><br /><br />
+
+        <label>Choose File:</label>
+        <input type="file" name="resume" /><br /><br />
+
+        <!-- Radio & Checkbox -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female<br /><br />
+
+        <label>Subscribe:</label>
+        <input type="checkbox" name="subscribe" /> Yes<br /><br />
+
+        <!-- Dropdown -->
+        <label>Country:</label>
+        <select name="country">
+          <option value="us">USA</option>
+          <option value="uk">UK</option>
+          <option value="af">Afghanistan</option></select
+        ><br /><br />
+
+        <!-- Textarea -->
+        <label>Message:</label><br />
+        <textarea name="message" rows="4" cols="40"></textarea><br /><br />
+
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+      document.write("<p>Today is: " + new Date().toDateString() + "</p>");
+    </script>
+
+    <!-- Comment -->
+    <!-- This is a sample comment -->
+  </body>
+</html>

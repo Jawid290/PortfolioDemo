@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Welcome to My Portfolio</h1>
+        <h3>Hello, my name is Jawid, I wonna be a full Stack developer</h3>
+        <div>
+        </div>
+    </header>
+    
+    <q id="quo1">The best way to predict the future is to create it <9/9/2025></q>
+      <nav >
+        <ul>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Project</a>
+          <a href="#contact">Contact</a>
+          
+        </ul>
+      </nav>
+
+      <div id="about" class="diveStyles">
+        <section >About Me</section>
+        <img src="photo1.JPG" alt="My photo" width="200px" height="200px" /> <br>
+        <span>I love web developement and design.</span>
+      </div>
+      <div id="skills" class="diveStyles">
+        <section>My Skills</section>
+        <table>
+            <tr>
+              <th>Skills</th>
+              <th>Level</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Intermediate</td>
+            
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Beginner</td>
+            </tr>
+           
+        
+        </table>
+
+
+      <div id="projects" class="diveStyles"><section>Projects</section>
+    <ul><li>Portfolio</li>
+        <li>Blog</li>
+        <li>Landing Page</li>
+    </ul>
+
+    <ol>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JavaScript</li>
+    </ol>
+
+    <div class="diveStyles">
+       <section>Code Examples</section>
+       <h5>Hello World!</h5>
+
+       <span>Press Ctrl + S to save</span></div>
+    
+
+    <footer>&copy; 2025 My Portfolio - Made with &#128512;</footer>
+
+    
+</div>
+      <div id="contact" class="diveStyles"><section>contact</section>
+    
+        <form action="">
+            <label for="fName">Name:</label><br>
+            <input type="text" name="fName" id="fName"><br>
+            <label for="email">Email:</label><br>
+            <input type="email"  id="email"><br>
+            <label for="password">password:</label><br>
+            <input type="password"  id="password"><br>
+
+           <div id="labelDiv"><label for="chooseFile">Choose File</label><br>
+            <input type="file"><br> </div>
+
+            <label for="gender">Gender:</label><br>
+            Male<input type="radio" name="gender">
+            Female<input type="radio" name="gender"><br>
+
+
+            <label for="Subscribe">Subscribe:</label><br>
+            Yes<input type="checkbox"><br>
+
+
+            
+            <caption>Country:</caption><br>
+            <select>
+                <option value="Afghanistan">Afg</option>
+                <option value="US">The US</option>
+                <option value="UK">The UK</option>
+            </select><br>
+            
+           <div id="captionDiv">
+            <caption>Message:</caption><br>
+            <textarea name="message" id="message"  rows="5" cols="100"></textarea>
+            
+            
+            
+          </div> 
+          
+          <input type="submit" value="send" style="background-color: rgba(6, 6, 248, 0.733); color: white;">
+
+            <script>
+                document.write("<p>Today is: " + new Date().toDateString() + "</p>");
+              </script>
+
+        </form>
+    
+    </div>
+    </div>
+  </body>
+</html>
